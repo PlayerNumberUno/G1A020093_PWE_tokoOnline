@@ -29,7 +29,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/pemrograman-web', function () {
+Route::get('/mata-kuliah', function () {
     echo '<h1>Pemrograman Web</h1>';
 });
 
@@ -39,12 +39,12 @@ Route::get('/framework', function () {
 
 Route::get('/nama-lengkap', function () {
     echo '<h1>Nama Lengkap</h1>';
-    echo '<p>Nama : Muhammad Wahfi Udin</p>';
+    echo '<p>Nama : Muhammad Naufal Rofif</p>';
 });
 
 Route::get('/npm', function () {
     echo '<h1>NPM</h1>';
-    echo '<p>NPM : G1A020007</p>';
+    echo '<p>NPM : G1A020093</p>';
 });
 
 Route::get('/kelas', function () {
@@ -69,12 +69,12 @@ Route::get('/universitas', function () {
 
 Route::get('/tanggal-lahir', function () {
     echo '<h1>Tanggal Lahir</h1>';
-    echo '<p>Tanggal Lahir : 4 April 2002</p>';
+    echo '<p>Tanggal Lahir : 08 Juli 2002</p>';
 });
 
 Route::get('/alamat', function () {
     echo '<h1>Alamat</h1>';
-    echo '<p>Alamat : Jalan Basuki Rahmat 1, Rt 8, Rw 2, Sukamerindu, Kota Bengkulu</p>';
+    echo '<p>Alamat : Jalan Karang indah RT 7, RW 3 NO 29</p>';
 });
 
 Route::get('dosen', [DosenController::class, 'index']);
